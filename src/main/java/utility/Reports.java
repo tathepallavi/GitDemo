@@ -9,7 +9,7 @@ public class Reports {
 		
 		ExtentReports reports = new ExtentReports(); // data collect
 		
-		ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentreports.html");
+		ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentreports_new.html");
 		
 		reports.attachReporter(sparkReporter);
 		
